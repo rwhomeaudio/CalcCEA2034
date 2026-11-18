@@ -63,3 +63,16 @@ Example:
   from the raw measurement data ("SPL Horizontal.txt", "SPL Vertical.txt").
 ```
 # Examples
+The follwing exmaples use the raw measurement data of the [Audio Science Review measurement of the Ascend Acoustics CBM-170SE2](https://www.audiosciencereview.com/forum/index.php?threads/ascend-cbm-170se2-speaker-review.72683/)
+
+1. Display calculated data in FreqRespGraph.py:
+
+`python $HOME/FreqRespGraph/FreqRespGraph.py --csvdelimiter "	" --ymin 30 --ymax 90 --title "CEA2034 Ascend Acoustics CBM-170SE2" --files "CEA2034/*.txt"`
+![Exampe1](./examples/CEA2034.png)
+`python $HOME/FreqRespGraph/FreqRespGraph.py --csvdelimiter "	" --ymin 30 --ymax 90 --title "Early Reflections Ascend Acoustics CBM-170SE2" --files "Early Reflections/*.txt"`
+![Example](./examples/EarlyReflections.png)
+`python $HOME/FreqRespGraph/FreqRespGraph.py --csvdelimiter "	" --ymin 30 --ymax 90 --nolegend --title "Estimated In-room response Ascend Acoustics CBM-170SE2" --files "Estimated In-Room Response.txt"`
+![Example3](./examples/Estimated.png)
+
+3. Display calculated data in REW (using: File->Import->Import frequency response):
+![Example4](./examples/REW.png)
