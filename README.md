@@ -1,6 +1,6 @@
 # CalcCEA2034
 
-CalcCEA2034 is a simple tool to calculate CEA2034 Spinorama data as CSV text files from raw horizontal and vertical measurements (e.g. as provided by Audio Science Review loudspeaker reviews). Please note that the raw measurement data may be published under some license which may effect the calculated data as well. E.g. Audio Science Review data is currently published under Creative CommonsAttribution-NonCommercial-ShareAlike 4.0 International License.
+CalcCEA2034 is a simple tool to calculate CEA2034 Spinorama data as CSV text files from raw horizontal and vertical measurements (e.g. as provided by Audio Science Review loudspeaker reviews). Please note that the raw measurement data may be published under some license which may effect the calculated data as well. E.g. Audio Science Review data is currently published under Creative CommonsAttribution-NonCommercial-ShareAlike 4.0 International License. ChatGPT AI was used to generate CalcCEA2034.py.
 
 The calculated data (CEA2034, Early Refections and Estimated In-Room Response) can directly be imported into various tools, e.g. [REW](https://www.roomeqwizard.com/), [FreqRespGraph](https://github.com/rwhomeaudio/FreqRespGraph) or spreadsheet software for display and further processing.
 
