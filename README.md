@@ -16,7 +16,7 @@ For Windows 11 and Ubuntu 24.04 a [PyInstaller](https://pyinstaller.org/en/stabl
 pip install numpy
 ```
 3. Optionally install git command line client: [https://github.com/git-guides/install-git](https://github.com/git-guides/install-git)
-4. Download FreqRespGraph:
+4. Download CalcCEA2034:
    - Clone git repository: `git clone https://github.com/rwhomeaudio/CalcCEA2034` or
    - Download ZIP archive from [https://github.com/rwhomeaudio/CalcCEA2034](https://github.com/rwhomeaudio/CalcCEA2034) using "Code->Download ZIP" button.
 5. Test the installation by running: `python CalcCEA2034.py -h`
