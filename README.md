@@ -1,6 +1,6 @@
 # CalcCEA2034
 
-CalcCEA2034 is a simple tool to calculate CEA2034 Spinorama data as CSV text files from raw horizontal and vertical measurements (e.g. as provided by Audio Science Review loudspeaker reviews). Please note that the raw measurement data may be published under some license which may effect the calculated data as well. E.g. Audio Science Review data is currently published under Creative CommonsAttribution-NonCommercial-ShareAlike 4.0 International License. ChatGPT AI was used to generate CalcCEA2034.py.
+CalcCEA2034 is a simple tool to calculate CEA2034 Spinorama data as CSV text files from raw horizontal and vertical measurements (e.g. as provided by Audio Science Review loudspeaker reviews). **Please note that the raw measurement data may be published under some license which may effect the calculated data as well. E.g. Audio Science Review data is currently published under Creative CommonsAttribution-NonCommercial-ShareAlike 4.0 International License.** ChatGPT AI was used to generate CalcCEA2034.py.
 
 The calculated data (CEA2034, Early Refections and Estimated In-Room Response) can directly be imported into various tools, e.g. [REW](https://www.roomeqwizard.com/), [FreqRespGraph](https://github.com/rwhomeaudio/FreqRespGraph) or spreadsheet software for display and further processing.
 
@@ -63,7 +63,7 @@ Example:
   from the raw measurement data ("SPL Horizontal.txt", "SPL Vertical.txt").
 ```
 # Examples
-The follwing exmaples use the raw measurement data of the [Audio Science Review measurement of the Ascend Acoustics CBM-170SE2](https://www.audiosciencereview.com/forum/index.php?threads/ascend-cbm-170se2-speaker-review.72683/)
+The following examples use the raw measurement data of the [Audio Science Review measurement of the Ascend Acoustics CBM-170SE2](https://www.audiosciencereview.com/forum/index.php?threads/ascend-cbm-170se2-speaker-review.72683/)
 
 1. Display calculated data in FreqRespGraph.py:
 
