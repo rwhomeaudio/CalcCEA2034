@@ -53,7 +53,6 @@ Example:
     CEA2034/Sound Power DI.txt
     Estimated In-Room Response.txt
     Early Reflections/Front Wall Bounce.txt
-    Early Reflections/All.csv
     Early Reflections/Total Early Reflection.txt
     Early Reflections/Floor Bounce.txt
     Early Reflections/Rear Wall Bounce.txt
