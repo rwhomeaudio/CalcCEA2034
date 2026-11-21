@@ -315,6 +315,13 @@ def calculate(input_dir: Path, output_dir: Path) -> None:
     for filename, curve, title in outputs:
         write_curve(filename, frequency, curve, title)
 
+    print("\nATTENTION:")
+    print("Please check the license terms under which the raw input data had been published. It may effect the calculated output\ndata as well.")
+    license_path = input_dir / "LICENSE.txt"
+    if license_path.is_file():
+        print("I have found the following LICENSE.txt in the input directory:")
+        with license_path.open() as f:
+            print(f.read())
     print("\nCalculation complete.")
     print(f"Frequency points: {len(frequency)}")
     print(f"Frequency range: {frequency[0]:.4f} Hz to {frequency[-1]:.1f} Hz")
